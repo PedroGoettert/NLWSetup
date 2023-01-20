@@ -17,7 +17,7 @@ function add() {
     return
   }
 
-  nlwSetup.addDay('01/01')
+  nlwSetup.addDay(today)
   setTimeout(() => {
     alert('Adicionado com Sucesso')
   }, 10);
